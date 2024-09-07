@@ -1,0 +1,1 @@
+index.html is an file to run the game
