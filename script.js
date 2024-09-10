@@ -190,18 +190,18 @@ function gameLoop() {
 
 // Handle key down events for paddle movement
 document.addEventListener('keydown', (event) => {
-    if (event.key === 'ArrowUp') {
+    if (event.key === 'w') {
         upPressed = true;
-    } else if (event.key === 'ArrowDown') {
+    } else if (event.key === 'd') {
         downPressed = true;
     }
 });
 
 // Handle key up events for paddle movement
 document.addEventListener('keyup', (event) => {
-    if (event.key === 'ArrowUp') {
+    if (event.key === 'w') {
         upPressed = false;
-    } else if (event.key === 'ArrowDown') {
+    } else if (event.key === 'd') {
         downPressed = false;
     }
 });
