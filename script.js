@@ -188,20 +188,20 @@ function gameLoop() {
     requestAnimationFrame(gameLoop);
 }
 
-// Handle key down events for paddle movement
+// Manejar eventos de tecla presionada para el movimiento del paddle
 document.addEventListener('keydown', (event) => {
     if (event.key === 'w') {
         upPressed = true;
-    } else if (event.key === 'd') {
+    } else if (event.key === 's') {
         downPressed = true;
     }
 });
 
-// Handle key up events for paddle movement
+// Manejar eventos de tecla soltada para el movimiento del paddle
 document.addEventListener('keyup', (event) => {
     if (event.key === 'w') {
         upPressed = false;
-    } else if (event.key === 'd') {
+    } else if (event.key === 's') {
         downPressed = false;
     }
 });
